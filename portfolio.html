@@ -10,28 +10,32 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+  />
     <title>Document</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <header class="header">
-      <a class="logo" href="./"><span class="logo-box">Web</span>Studio</a>
-      <nav>
-        <ul>
-          <li><a class="navigation-list" href="./index.html">Студия</a></li>
-          <li><a class="navigation-list current" href="">Портфолио</a></li>
-          <li><a class="navigation-list" href="">Контакты</a></li>
-        </ul>
-      </nav>
-      <address>
-        <a class="address-list" href="mailto:info@devstudio.com"
-          >info@devstudio.com</a
-        >
-        <a class="address-list" href="tel:+380961111111">+380961111111</a>
-      </address>
-    </header>
-    <main>
+<header class="header">
+  <div class="conteiner">
+    <a class="logo text-none" href="./"><span class="logo-box">Web</span>Studio</a>
+    <nav class="nav">
       <ul>
+        <li><a class="navigation-list text-none" href="./">Студия</a></li>
+        <li><a class="navigation-list current text-none" href="./portfolio.html">Портфолио</a></li>
+        <li><a class="navigation-list text-none" href="">Контакты</a></li>
+      </ul>
+    </nav>
+    <address class="address">
+      <a class="address-list text-none" href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <a class="address-list text-none" href="tel:+380961111111">+380961111111</a>
+    </address>
+  </div>
+</header>
+    <main class="conteiner">
+      <ul class="portfolio-btn">
         <li>
           <button class="porfolio-button" type="button">Все</button>
         </li>
@@ -49,8 +53,8 @@
         </li>
       </ul>
 
-      <section>
-        <ul>
+      <section class="porfolio-section">
+        <ul class="porfolio-page">
           <li>
             <img src="./porfolio/porfolio1.jpg" alt="" />
             <h3 class="portfolio-header">Технокряк</h3>
@@ -99,19 +103,16 @@
         </ul>
       </section>
     </main>
-    <footer class="footer">
-      <a class="logo" href="./"><span class="logo-box">Web</span>Studio</a>
-      <address class="address">
-        <a class="address-list" href="https://goo.gl/maps/74VDhGETHKudqdZ57"
-          >г. Киев, пр-т Леси Украинки, 26</a
-        >
-        <br />
-        <a class="address-list" href="mailto:info@devstudio.com"
-          >info@example.com</a
-        >
-        <br />
-        <a class="address-list" href="tel:+380991111111">+38 099 111 11 11</a>
-      </address>
-    </footer>
+<footer class="footer section">
+  <div class="conteiner">
+    <a class="logo logo-footer text-none" href="./"><span class="logo-box">Web</span>Studio</a>
+    <address class="address">
+      <a class="address-list text-none" href="https://goo.gl/maps/74VDhGETHKudqdZ57">г. Киев, пр-т Леси Украинки, 26</a>
+      <br />
+      <a class="address-list text-none" href="mailto:info@devstudio.com">info@example.com</a> <br />
+      <a class="address-list text-none" href="tel:+380991111111">+38 099 111 11 11</a>
+    </address>
+  </div>
+</footer>
   </body>
 </html>
